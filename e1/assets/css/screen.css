@@ -1,0 +1,29 @@
+/**
+ * Resets
+ *
+ * Simple browser resets.
+ */
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+/* Reset box sizing: https://css-tricks.com/box-sizing/ */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+/**
+ * Layout
+ */
+
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+}
